@@ -40,6 +40,37 @@ p {
   color: #333;
 }
 
+/* navbar css */
+.topnav {
+  width: 100%;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+}
+
+.topnav #myLinks {
+  display: none;
+}
+
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.topnav a.icon {
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.active {
+  color: white;
+}
+
 /* css for header*/
 #showcase {
   min-height: 450px;
@@ -49,7 +80,7 @@ p {
 
 #showcase .bg-image {
   position: absolute;
-  background: #333 url('../images/yellow-bokeh-photo-949587.jpg');
+  background: #333 url('../images/JPG_1579852184632.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -73,6 +104,7 @@ p {
 #about-section {
   background: #eaeaea;
   color: #333;
+  padding: 2em;
   padding-bottom: 2em;
 }
 
@@ -160,5 +192,26 @@ p {
 
   #projects-section li {
     width: 31%;
+  }
+
+  /* navbar css */
+  .topnav1 {
+    width: 100%;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+  }
+
+  .topnav1 a {
+    float: left;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+
+  .active1 {
+    color: white;
   }
 }
