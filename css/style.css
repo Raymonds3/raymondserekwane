@@ -117,6 +117,20 @@ p {
   padding: 2em;
   padding-bottom: 2em;
 }
+.img-holder {
+  width: 15%;
+  height: auto;
+  float: left;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  margin-left: 4px;
+}
+
+img {
+  margin-top: 8px;
+  border-radius: 0 3px 3px 0;
+  size: 10px;
+}
 
 #myProgress {
   width: 100%;
@@ -223,10 +237,73 @@ p {
   color: #fff;
 }
 
+.box a {
+  padding: 10px;
+}
+
 #contact-section .box:first-child {
   background: #2690b4
 } 
 
+.fa {
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  color: white;
+}
+
+.fa-twitter {
+  color: white;
+}
+
+.fa-linkedin {
+  color: white;
+}
+
+.fa-instagram {
+  color: white;
+}
+
+form {
+  margin-top: 20px;
+  transition: all 4s ease-in-out;
+}
+
+.form-control {
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid white;
+  color: #fff;
+  font-size: 15px;
+  margin-bottom: 16px;
+}
+
+input {
+  height: 45px;
+}
+
+form .submit {
+  background: #ff5722;
+  border-color: transparent;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin-top: 20px;
+  height: 50px;
+}
+
+form .submit:hover {
+  background-color: #f44336;
+  cursor: pointer;
+}
 /* footer */
 #main-footer {
   padding: 2em;
@@ -275,6 +352,9 @@ p {
     width: 31%;
   }
 
+  .form-control {
+    width: 300px;
+  }
   /* navbar css */
   .topnav1 {
     width: 100%;
