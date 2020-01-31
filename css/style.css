@@ -227,8 +227,28 @@ img {
   color: #333;
 }
 
+#projects-section a {
+  text-decoration: none;
+  color: #333;
+}
+
+#projects-section a:hover {
+  opacity: 0.3;
+  cursor: pointer;
+}
+
 .card-content {
   padding: 1.4em;
+}
+
+.video-holder {
+  padding:16px;
+  width:50%;
+  float: left;
+}
+
+video {
+  width: 250px;
 }
 
 /* contact-section */
@@ -351,6 +371,22 @@ form .submit:hover {
   #projects-section li {
     width: 31%;
   }
+
+  #projects-section a:hover {
+    opacity: 0.2;
+    cursor: pointer;
+  } 
+
+  video {
+    width: 300px;
+    padding: 1em;
+  }
+
+  /* .video-holder {
+    padding:16px;
+    width:30%;
+    float: left;
+  } */
 
   .form-control {
     width: 300px;
