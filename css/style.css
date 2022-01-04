@@ -35,6 +35,12 @@ p {
   padding: 1em 0;
 }
 
+li {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
 .btn {
   display: inline-block;
   background: #333;
@@ -118,7 +124,8 @@ p {
   padding-bottom: 2em;
 }
 .img-holder {
-  width: 15%;
+  /*width: 15%;*/
+  width: 10%;
   height: auto;
   float: left;
   margin-top: 8px;
@@ -196,7 +203,7 @@ img {
 
 /* experience-section */
 #experience-section .box {
-  background: #333 url('../images/yellow-and-black-striped-pattern-2254102.jpg');
+  background: #333 url('../images/yellow-bokeh-photo-949587.jpg');
   background-position: center;
   background-size: cover;
   padding: 2em;
@@ -263,7 +270,7 @@ video {
 
 #contact-section .box:first-child {
   background: #2690b4
-} 
+}
 
 .fa {
   text-align: center;
@@ -342,8 +349,10 @@ form .submit:hover {
   .grid {
     display: grid;
     grid-template-columns: 1fr repeat(2, minmax(auto, 24em)) 1fr;
+    /* added */
+    flex: auto;
   }
-  
+
   .grid-2 {
     display: grid;
     grid-template-columns: 1fr repeat(2, minmax(auto, 24em)) 1fr;
@@ -352,9 +361,10 @@ form .submit:hover {
   .content-wrap,
   #projects-section ul {
     grid-column: 2/4;
+    padding: inherit;
   }
 
-  .box, 
+  .box,
   #main-footer div {
     grid-column: span 2;
   }
@@ -375,7 +385,7 @@ form .submit:hover {
   #projects-section a:hover {
     opacity: 0.2;
     cursor: pointer;
-  } 
+  }
 
   video {
     width: 300px;
